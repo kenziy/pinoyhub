@@ -1,0 +1,280 @@
+html,
+body {
+	height: 100%;
+	background-color: #1b1320;
+	font-family: 'Raleway', sans-serif;
+}
+
+body{
+	margin:0;
+	padding:0;
+	color: #fff;
+	text-align: center;
+}
+
+.black{
+	/*background-color: rgba(0, 0, 0, 0.5);*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#wrapper{
+	position: relative;
+	width: 100%;
+	margin: auto;
+}
+
+#header{
+	width: 100%;
+	padding: 0 0 100px 0;
+	margin: auto;
+	background: url('bg.jpg') center bottom no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	box-shadow: inset 0 0 100px rgba(0,0,0,0.5);
+	position: relative;
+}
+
+.menu {
+	display: block;
+	text-align: left;
+	padding: 30px 0;
+}
+
+.logo-text,
+.gethost-logo {
+	float: left;
+	font-family: 'Teko', sans-serif;
+}
+
+.logo-text {
+	font-size: 35px;
+	line-height: 65px;
+	padding: 0 10px;
+}
+
+h1.top-text {
+	font-family: 'Teko', sans-serif;
+	font-size: 100px;
+	margin-top: 50px;
+}
+
+h2{
+	font-size: 22px;
+	letter-spacing: 2px;
+	color: #f4f0f7;
+}
+
+h2 strong.sep-one{
+	width: 60px;
+	height: 1px;
+	background: #fff;
+	position: absolute;
+	margin-left: -80px;
+	margin-top: 15px;
+}
+
+h2 strong.sep-two{
+	width: 60px;
+	height: 1px;
+	background: #fff;
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+.subscription {
+    color: #868a8b;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0 auto;
+    padding: 40px;
+    padding-top: 25px;
+    text-align: left;
+    width: 400px;
+}
+
+.subscription input {
+    border: 1px solid #ccccca;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.subscription input[type="submit"] {
+    background: #19789f;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+/* List Feature */
+#features h2 {
+    font-weight: 700;
+    letter-spacing: 0.005em;
+    margin: 40px 0 50px;
+}
+.list-features { 
+	margin: 0 -15px; 
+	display: -webkit-flex; 
+	display: -ms-flexbox; 
+	display: flex; 
+	-webkit-flex-wrap: wrap; 
+	-ms-flex-wrap: wrap; 
+	flex-wrap: wrap; 
+	color: #fff; 
+}
+.list-features li {
+	list-style: none; 
+	padding: 0 15px 0 80px; 
+	margin-bottom: 63px; 
+	position: relative;
+	text-align: left; 
+	width: 33.33%; 
+}
+.list-features p { 
+	font-size: 16px; 
+	font-weight: 300; 
+	line-height: 1.25em; 
+}
+.list-features span { 
+	position: absolute; 
+	left: 15px; top: -13px; 
+	height: 54px; 
+	display: -webkit-flex; 
+	display: -ms-flexbox; 
+	display: flex; 
+	-webkit-justify-content: flex-start; 
+	-ms-flex-pack: start; 
+	justify-content: flex-start; 
+	-webkit-align-items: center; 
+	-ms-flex-align: center; 
+	align-items: center; 
+}
+.list-features h5 {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0 0 15px;
+}
+.list-features a,
+.list-features a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.ico-message-large,
+.ico-chart-large,
+.ico-server-large,
+.ico-thunder-large,
+.ico-support-large,
+.ico-file-large {
+	background-image: url(sprite.png);
+	display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+}
+.ico-message-large {
+    background-image: url(sprite.png);
+    background-position: 67.17267552182163% 73.2776617954071%;
+    background-size: 1354.7619047619048% 1551.5151515151515%;
+    width: 42px;
+    height: 33px;
+}
+.ico-chart-large {
+    background-position: 8.712121212121213% 99.78768577494692%;
+    background-size: 1387.8048780487807% 1248.780487804878%;
+    width: 41px;
+    height: 41px;
+}
+.ico-server-large {
+    background-position: 0% 100%;
+    background-size: 1354.7619047619048% 1219.047619047619%;
+    width: 42px;
+    height: 42px;
+}
+.ico-thunder-large {
+    background-position: 99.812734082397% 29.067245119305856%;
+    background-size: 1625.7142857142856% 1003.9215686274509%;
+    width: 35px;
+    height: 51px;
+}
+.ico-support-large {
+    background-position: 99.62192816635161% 71.3978494623656%;
+    background-size: 1422.5% 1089.3617021276596%;
+    width: 40px;
+    height: 47px;
+}
+.ico-file-large {
+    background-position: 98.29545454545455% 84.27947598253274%;
+    background-size: 1387.8048780487807% 948.148148148148%;
+    width: 41px;
+    height: 54px;
+}
+/* List Logos */
+.section-logo h1 {
+	font-weight: 700;
+	margin: 40px 0 10px;
+}
+.logo-list { 
+	display: -webkit-flex; 
+	display: -ms-flexbox; 
+	display: flex; 
+	-webkit-align-items:center; 
+	-ms-flex-align:center; 
+	align-items: center; 
+	-webkit-justify-content: space-between; 
+	-ms-flex-pack: justify; 
+	justify-content: space-between;
+	list-style: none;  
+}
+
+.logo-drupal,
+.logo-joomla,
+.logo-magento,
+.logo-php,
+.logo-wordpress {
+	background-image: url(sprite.png); 
+	display: inline-block; 
+	vertical-align: middle; 
+	font-size: 0;
+}
+.logo-drupal { 
+	background-position: 0% 76.13882863340564%; 
+	background-size: 319.6629213483146% 1003.9215686274509%; 
+	width: 178px;
+	height: 51px; 
+}
+.logo-joomla {  
+	background-position: 69.87951807228916% 0%; 
+	background-size: 240.08438818565403% 575.2808988764045%; 
+	width: 237px; 
+	height: 89px; 
+}
+.logo-magento { 
+	background-position: 60.10362694300518% 37.280701754385966%; 
+	background-size: 310.92896174863387% 914.2857142857142%; 
+	width: 183px; 
+	height: 56px;
+}
+.logo-php { 
+	background-position: 0% 89.82300884955751%; 
+	background-size: 451.58730158730157% 853.3333333333334%;
+	width: 126px; 
+	height: 60px; 
+}
+.logo-wordpress { 
+	background-position: 67.05202312138728% 21.184510250569478%; 
+	background-size: 255.15695067264573% 701.3698630136986%; 
+	width: 223px; 
+	height: 73px; 
+}
+
